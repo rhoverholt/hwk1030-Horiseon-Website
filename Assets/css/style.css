@@ -1,12 +1,27 @@
+
+/*******************************************************************
+/* Setup the page Defaults:
+/* - Default all margins and padding to 0 
+/* - include padding and border in the element's total height and width 
+/*******************************************************************/
+
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/*******************************************************************
+/* Setup the default background color for all Body elements
+/*******************************************************************/
+
 body {
     background-color: #d9dcd6;
 }
+
+/*******************************************************************
+/* Setup the header line
+/*******************************************************************/
 
 header {
     padding: 20px;
@@ -15,15 +30,14 @@ header {
     color: #ffffff;
 }
 
+/* Allow the header to be on the same line as the nav entries */
 header h1 {
     display: inline-block;
     font-size: 32px;
 }
 
 /* Removed special seo coloring...I thought it looked cool, but it's not in the .pdf */
-/* header h1 #seo {
-    color: #949494;
-} */
+/* header h1 #seo {color: #949494;} */
 
 header nav {
     padding-top: 15px;
@@ -42,13 +56,17 @@ header nav ul li {
     margin-left: 25px;
 }
 
-a {
+header a {
     color: #ffffff;
 }
 
-p {
+header p {
     font-size: 16px;
 }
+
+/*******************************************************************
+/* Setup the hero image, akin to a header picture
+/*******************************************************************/
 
 #hero {
     height: 800px;
@@ -58,6 +76,10 @@ p {
     background-size: cover;
     background-position: center;
 }
+
+/*******************************************************************
+/* Assign float classes for global use
+/*******************************************************************/
 
 .float-left {
     float: left;
@@ -69,7 +91,12 @@ p {
     margin-left: 1%;
 }
 
-/* Section */
+/*******************************************************************
+/* Format the main document Section
+/* - width percentages so document expands and contracts fluidly
+/* - inline-block so Section and Aside can be adjacent
+/*******************************************************************/
+
 section {
     width: 75%;
     display: inline-block;
@@ -88,6 +115,10 @@ section h2 {
     font-size: 44px;
 }
 
+/*******************************************************************
+/* Setup the individual articles, new lines for each
+/*******************************************************************/
+
 article {
     display: block;
     margin-bottom: 2%;
@@ -98,8 +129,10 @@ article {
     color: #ffffff;
 }
 
+/*******************************************************************
+/* Format the aside column
+/*******************************************************************/
 
-/* aside */
 aside {
     width: 20.5%;
     height: 100%;
@@ -113,34 +146,36 @@ aside {
     color: #d9dcd6;
 }
 
-.aside {
+/*******************************************************************
+/* Format the aside-entry items
+/*******************************************************************/
+
+.aside-entry {
 
     font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri' , 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
     margin-bottom: 32px;
-/*    color: #ffffff;*/
     text-align: center;
 }
 
-.aside p, h3 {
+.aside-entry h3 {
+    text-align: center;
     margin-bottom: 10px;
 }
 
-.aside h3 {
-    text-align: center;
-}
-
-.aside p {
+.aside-entry p {
     text-align: left;
+    margin-bottom: 10px;
 }
 
-aside img {
-/*    margin: auto; */
+.aside-entry img {
     max-width: 150px;
 }
 
-/* Removed as footer does not exist on answer .pdf
-** footer 
+/*******************************************************************
+/* Remove footer as it does not exist on the answer .pdf
+/*******************************************************************
+
 footer {
     padding: 30px;
     clear: both;
