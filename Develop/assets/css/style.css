@@ -1,0 +1,154 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #d9dcd6;
+}
+
+header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+header h1 {
+    display: inline-block;
+    font-size: 32px;
+}
+
+/* Removed special seo coloring...I thought it looked cool, but it's not in the .pdf */
+/* header h1 #seo {
+    color: #949494;
+} */
+
+header nav {
+    padding-top: 15px;
+    margin-right: 1%;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+a {
+    color: #ffffff;
+}
+
+p {
+    font-size: 16px;
+}
+
+#hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 1.5%;
+    background-image: url("../images/digital-marketing-meeting.jpg"); alt:"background";
+    background-size: cover;
+    background-position: center;
+}
+
+.float-left {
+    float: left;
+    margin-right: 1%;
+}
+
+.float-right {
+    float: right;
+    margin-left: 1%;
+}
+
+/* Section */
+section {
+    width: 75%;
+    display: inline-block;
+    margin-left: 1.5%;
+    margin-bottom: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+section img {
+    max-height: 200px;
+    padding: 2%;
+}
+
+section h2 {
+    margin-bottom: 20px;
+    font-size: 44px;
+}
+
+article {
+    display: block;
+    margin-bottom: 2%;
+    padding: 50px;
+    min-height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+
+/* aside */
+aside {
+    width: 20.5%;
+    height: 100%;
+    clear: both;
+    float: right;
+    margin-right: 1.5%;
+    padding: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri' , 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+    margin-bottom: 32px;
+    color: #d9dcd6;
+}
+
+.aside {
+
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri' , 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+    margin-bottom: 32px;
+/*    color: #ffffff;*/
+    text-align: center;
+}
+
+.aside p, h3 {
+    margin-bottom: 10px;
+}
+
+.aside h3 {
+    text-align: center;
+}
+
+.aside p {
+    text-align: left;
+}
+
+aside img {
+/*    margin: auto; */
+    max-width: 150px;
+}
+
+/* Removed as footer does not exist on answer .pdf
+** footer 
+footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+footer h2 {
+    font-size: 20px;
+}
+*/
