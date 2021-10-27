@@ -35,4 +35,4 @@ The following image shows the web application's appearance and functionality:
 
 ## Live-Website
 
-![Here is a link to the actual website](index.html)
+![Here is a link to the actual website](https://rhoverholt.github.io/hwk1030-Horiseon-Website/)
